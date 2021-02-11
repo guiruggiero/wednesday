@@ -1,8 +1,10 @@
 {
   "expo": {
-    "name": "wednesday",
+    "name": "Wednesday checker",
     "slug": "wednesday",
-    "version": "1.0.0",
+    "version": "0.2",
+    "description": "Is today Wednesday? Let's answer this once and for all",
+    "privacy": "public",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -10,6 +12,7 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "platforms": ["web"],
     "updates": {
       "fallbackToCacheTimeout": 0
     },
