@@ -1,17 +1,12 @@
 {
   "expo": {
-    "name": "Wednesday checker",
-    "slug": "wednesday",
+    "name": "Wednesday Checker",
+    "slug": "wednesday-checker",
     "version": "0.2",
     "description": "Is today Wednesday? Let's answer this once and for all",
     "privacy": "public",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
     "platforms": ["web"],
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -19,15 +14,6 @@
     "assetBundlePatterns": [
       "**/*"
     ],
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
-    },
     "web": {
       "favicon": "./assets/favicon.png"
     }
